@@ -21,7 +21,7 @@ public class ContactController {
 	@RequestMapping(value = "/msg")
 	@ResponseBody
 	public String msg() {
-		return "Welcome to SpringBoot Application";
+		return "<h1>Welcome to SpringBoot Application</h1>";
 	}
 
 	@RequestMapping("/read-contact")
